@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Sfondo bianco */
+}
+
+header {
+    background-color: #0056B3;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold; /* Applica il grassetto solo a h1 */
+}
+
+.bold {
+    font-weight: normal; /* Rimuove il grassetto da qualsiasi altro elemento con la classe 'bold' */
+}
+
+.main-content {
+    width: 60%; /* La larghezza è ora al 60% dello schermo */
+    margin: 0 auto; /* Centra il contenuto orizzontalmente */
+    padding: 20px;
+    text-align: justify; /* Giustifica il testo */
+}
+
+
+.table-alternate {
+    width: 60%; /* La tabella ora occupa il 60% della larghezza della pagina */
+    border-collapse: collapse;
+    background-color: white;
+    margin: 20px auto; /* Questo centrerà la tabella orizzontalmente */
+    border: 1px solid #ddd;
+}
+
+.table-alternate th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.table-alternate td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-alternate tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #0056B3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .table-alternate {
+        width: 90%; /* Sui dispositivi mobili la tabella sarà al 90% della larghezza per essere visibile senza scroll orizzontale */
+        font-size: 14px;
+    }
+}
