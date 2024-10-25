@@ -1,2 +1,0 @@
-PREZZI
-2016_3_tr.txt

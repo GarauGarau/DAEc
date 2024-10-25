@@ -1,2 +1,0 @@
-PREZZI
-2019_2_tr.txt

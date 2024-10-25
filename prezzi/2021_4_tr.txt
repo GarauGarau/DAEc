@@ -1,2 +1,0 @@
-PREZZI
-2021_4_tr.txt

@@ -1,2 +1,0 @@
-PREZZI
-2024_2_tr.txt
