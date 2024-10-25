@@ -8,16 +8,26 @@ body {
 header {
     background-color: #0056B3;
     color: white;
-    padding: 30px;
-    text-align: center;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px; /* Adjust size as needed */
+    margin-right: 15px;
+    filter: invert(1); /* Makes the logo white */
 }
 
 header h1 {
     margin: 0;
+    font-size: 1.5em;
+    text-align: left;
 }
 
+
 h1 {
-    font-weight: bold; /* Applica il grassetto solo a h1 */
+    font-weight: bold;
 }
 
 .bold {
